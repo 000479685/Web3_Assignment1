@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 
 const CardList = ({userData}) =>{
     return (
-        <div className='card-container'>
+        <div className='card-list-container'>
             {
                 userData.map((user, index) =>
                 {

@@ -1,21 +1,39 @@
 .card-container
 {
     display: flex;
-    flex: 100px auto;
-    flex-direction: column;
-    
+    gap: 10px;
+    flex-direction: row;    
+    background-color: rgb(147, 167, 167);
+    margin: 20px;    
+    padding: 15px;
 }
 
 .card-icon
 {
+    justify-content: center;
     gap: 5px;
+    height: 128px;
+    width: 128px;
+}
+
+.card-icon img
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .card-text
 {
     display: flex;    
     flex: 1 1;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .card-name

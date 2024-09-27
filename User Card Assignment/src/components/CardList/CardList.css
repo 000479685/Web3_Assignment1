@@ -1,6 +1,7 @@
-.card-container
+.card-list-container
 {
     display: grid;
-    grid-template-columns: repeat(1,1,1);
-    gap:10px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 450px);
+    background-color: white;
 }
