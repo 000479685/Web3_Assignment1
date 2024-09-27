@@ -13,7 +13,10 @@ function App() {
     <div>      
       <h1>Assignment 1 - Aiden Wu</h1>
 
-      <CardList cardData={userData} />
+      {console.log("Using this data : ", userData)}
+      {console.log(typeof(userData), userData[0])}
+      {console.log(userData[0].data)}
+      <CardList userData={userData[0].data} />
     </div>
   )
 }
