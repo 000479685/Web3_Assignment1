@@ -1,0 +1,29 @@
+.card-container
+{
+    display: flex;
+    flex: 100px auto;
+    flex-direction: column;
+    
+}
+
+.card-icon
+{
+    gap: 5px;
+}
+
+.card-text
+{
+    display: flex;    
+    flex: 1 1;
+    flex-direction: row;
+}
+
+.card-name
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-email
+{
+    font-family: 'Times New Roman', Times, serif;
+}
